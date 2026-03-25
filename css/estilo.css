@@ -1,9 +1,35 @@
+/* Reset css  */
+* {
+  /* Margem = Externa */
+  margin: 0;
+  
+}
 
     body {
-   background:rgb(255, 0, 157);
+   background:rgb(233, 90, 178);
    color: rgba(0, 183, 255, 0.521);
 color: black";
 
+}
 
-    }
+a {
+  /* Propriedades de VALOR */
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+
+
+
+/* HEADER = Cabeçalho  */ 
+header {
+  /* ROW Linha Horizontal */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(247, 148, 186);
+  /* Largura ou Comprimento */
+  width: 100%;
+  
+}
  
